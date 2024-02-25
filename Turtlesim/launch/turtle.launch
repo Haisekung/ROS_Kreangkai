@@ -1,0 +1,11 @@
+<launch>
+
+
+	<node name="Turtlesim" pkg="turtlesim" type="turtlesim_node" output="screen">
+	</node>
+	
+	<node name="GUI" pkg="Turtlesim_Remote" type="GUI.py" output="screen">
+	</node>
+
+
+</launch>
